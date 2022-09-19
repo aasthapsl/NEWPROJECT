@@ -1,0 +1,34 @@
+{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+{{ 'custom-page.css' | asset_url | stylesheet_tag }}
+<div class="tw-text-center">
+  <h1 class="tw-font-helveticCon tw-uppercase">{{ section.settings.heading | escape }}</h1>
+  <p class="tw-font-helveticCon tw-text-xs tw-pb-4">Questions or comments? Please complete and submit the form below.</p>
+  <p><iframe id="contact" data-v-cb33db34="" src="{{ section.settings.iframe_url }}" title="Main Content" gesture="media" allow="encrypted-media" allowfullscreen="allowfullscreen" class="resp-iframe tw-w-full tw-h-[950px]" scrolling="no"></iframe></p>
+</div>
+
+{% schema %}
+{
+  "name": "Contact Us",
+  "tag": "section",
+  "class": "spaced-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Contact form",
+      "label": "Heading"
+    },
+    {
+        "type": "text",
+        "id": "iframe_url",
+        "label": "Iframe URL",
+        "default": "http://www.econsumeraffairs.com/temp/cbrands/beer/contactus.htm?F2=cooperandthief"
+      }
+  ],
+  "presets": [
+    {
+      "name": "Contact Us"
+    }
+  ]
+}
+{% endschema %}

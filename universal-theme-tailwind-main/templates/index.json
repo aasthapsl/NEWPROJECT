@@ -1,0 +1,328 @@
+{
+  "sections": {
+    "16566770054fdc405e": {
+      "type": "tailwind_slider",
+      "blocks": {
+        "165667700550edd6b0-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_15.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": ""
+          }
+        },
+        "165667700550edd6b0-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_22.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165667700550edd6b0-0",
+        "165667700550edd6b0-1"
+      ],
+      "settings": {
+      }
+    },
+    "1656673132bbb4993f": {
+      "type": "hero-banner",
+      "blocks": {
+        "165667313296744523-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hero Banner",
+            "heading_size": "h1"
+          }
+        },
+        "165667313296744523-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "165667313296744523-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop All",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "165667313296744523-0",
+        "165667313296744523-1",
+        "165667313296744523-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "video_image": "shopify:\/\/shop_images\/img_15.jpg",
+        "hero_banner_video_for_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/39a2d903587345e2afccd34ac1ce3c4e.mp4",
+        "video_banner_description": ""
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "16564208723d7bc1c2": {
+      "type": "image-with-text",
+      "blocks": {
+        "165642087235778e33-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "5ba441a2-6f9a-4383-af06-8a530dc49a27": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "165642087235778e33-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "165642087235778e33-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "165642087235778e33-0",
+        "5ba441a2-6f9a-4383-af06-8a530dc49a27",
+        "165642087235778e33-1",
+        "165642087235778e33-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/person-in-red-raincoat-admires-a-huge-waterfall.jpg",
+        "height": "adapt",
+        "layout": "image_first",
+        "desktop_content_alignment": "left",
+        "color_scheme": "#d87070",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/20th-Century-1024x683.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165639561017d28cff": {
+      "type": "newsletter",
+      "settings": {
+        "newsletter_enable": true,
+        "check_background_image": true,
+        "newsletter_background_image": "shopify:\/\/shop_images\/rectangle_3x_6058abfa-2be3-414e-adc0-480b276d296c.png",
+        "newsletter_background_image_mobile": "shopify:\/\/shop_images\/rectangle_3x_6058abfa-2be3-414e-adc0-480b276d296c.png",
+        "klaviyo_list_id": "RvEbDF",
+        "newsletter_heading": "Email Sign Up",
+        "newsletter_subheading": "Get news and marketing",
+        "newsletter_consent_text": "I have read and agree to Next Door Cocktails’s <a href=\".\/pages\/privacy\">privacy policy<\/a> and <a href=\".\/pages\/terms\">terms and conditions<\/a> and consent to Next Door Cocktails’s use of my personal information for marketing and analytics purposes, including receiving marketing and promotional communications.",
+        "newsletter_button_text": "Subscribe",
+        "newsletter_bg_color": "#333333",
+        "newsletter_heading_color": "#ffffff",
+        "newsletter_color_input": "#ffffff",
+        "newsletter_color_terms": "#ffffff",
+        "newsletter_button_bg_color": "",
+        "newsletter_button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "16566770054fdc405e",
+    "1656673132bbb4993f",
+    "rich_text",
+    "16564208723d7bc1c2",
+    "featured_collection",
+    "collage",
+    "video",
+    "multicolumn",
+    "165639561017d28cff"
+  ]
+}

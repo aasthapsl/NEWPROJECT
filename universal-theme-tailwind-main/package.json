@@ -1,0 +1,26 @@
+{
+    "name": "universal-theme-cps",
+    "scripts": {
+        "start": "concurrently \"gulp\" --raw \"shopify theme serve\"",
+        "minify": "gulp",
+        "build": "npx tailwindcss build -i tailwind-assets/application-tailwind.css -o src/assets/css/application-tailwind.css && npm run start && npx tailwindcss -i tailwind-assets/application-tailwind.css -o src/assets/css/application-tailwind.css --watch"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.7",
+        "concurrently": "^6.2.1",
+        "gulp": "^4.0.2",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-cli": "^2.3.0",
+        "gulp-uglify": "^3.0.2",
+        "tailwindcss": "^3.1.4"
+    },
+    "dependencies": {
+        "@pixi/filter-bulge-pinch": "^4.1.5",
+        "@pixi/particle-emitter": "^5.0.4",
+        "gsap": "^3.9.1",
+        "pixi-filters": "^4.1.6",
+        "pixi-particles": "4.2.0",
+        "pixi.js": "^6.2.2",
+        "tw-elements": "^1.0.0-alpha12"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-where-to-buy",
+      "settings": {
+        "header_text_general": "",
+        "content_text": "",
+        "iframe_url": "https:\/\/where-to-buy.co\/widgets\/core\/BuyOnlineBuyLocalV2\/index.html?pid=12039042&allow=geolocation",
+        "activate_preselect": false,
+        "review_title": "TRIED IT BEFORE?",
+        "review_btn_label": "LEAVE A REVIEW",
+        "review_url": "https:\/\/display.ugc.bazaarvoice.com\/static\/constellationbrands\/two_lane\/en_US\/container.htm?bvaction=rr_submit_generic&bvcategoryId=Two-Lane&bvcampaignId=productlocator",
+        "open_tab": true,
+        "review_ada": "LEAVE A REVIEW"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
